@@ -549,7 +549,7 @@ h3 {
 }
 
 .research-block__intro {
-  max-width: 48rem;
+  max-width: 100%;
   margin-bottom: 1.2rem;
 }
 
@@ -560,8 +560,10 @@ h3 {
 }
 
 .project-card__visual {
-  height: 10rem;
+  aspect-ratio: 16 / 9;
+  height: auto;
   margin-bottom: 1rem;
+  overflow: hidden;
   border-radius: var(--radius-md);
   background: var(--surface-strong);
 }
