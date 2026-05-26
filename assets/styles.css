@@ -1,18 +1,18 @@
 :root {
-  --bg: #f6f2ea;
-  --surface: #fffdf8;
-  --surface-strong: #f0e9db;
-  --surface-tint: #f8f4ec;
-  --text: #1d2b35;
-  --muted: #64707d;
-  --line: rgba(45, 62, 74, 0.14);
-  --accent: #9e5e2e;
-  --accent-soft: #ead8c4;
-  --deep: #203a43;
-  --shadow: 0 24px 60px -36px rgba(22, 36, 45, 0.32);
-  --radius-xl: 28px;
-  --radius-lg: 22px;
-  --radius-md: 16px;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-strong: #f6f7f9;
+  --surface-tint: #fafafa;
+  --text: #111827;
+  --muted: #667085;
+  --line: rgba(17, 24, 39, 0.08);
+  --accent: #8a5a2b;
+  --accent-soft: #f0e8df;
+  --deep: #172a33;
+  --shadow: 0 14px 36px -34px rgba(17, 24, 39, 0.28);
+  --radius-xl: 12px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
   --content-width: 1180px;
 }
 
@@ -28,12 +28,11 @@ html {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(circle at top left, rgba(158, 94, 46, 0.08), transparent 24rem),
-    linear-gradient(180deg, #f7f3ec 0%, #f6f2ea 100%);
+  background: var(--bg);
   color: var(--text);
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  line-height: 1.65;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.58;
 }
 
 img {
@@ -68,8 +67,8 @@ code {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid rgba(45, 62, 74, 0.1);
-  background: rgba(246, 242, 234, 0.88);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(18px);
 }
 
@@ -78,7 +77,7 @@ code {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  min-height: 5rem;
+  min-height: 4.25rem;
 }
 
 .brand {
@@ -97,15 +96,14 @@ code {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 2.4rem;
+  height: 2.4rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, #203a43 0%, #2f5662 55%, #9e5e2e 100%);
+  background: var(--deep);
   color: #fff;
-  font-family: Baskerville, "Iowan Old Style", "Palatino Linotype", serif;
-  font-size: 1rem;
+  font-size: 0.88rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
 }
 
 .brand__text {
@@ -117,12 +115,12 @@ code {
 h1,
 h2,
 h3 {
-  font-family: Baskerville, "Iowan Old Style", "Palatino Linotype", serif;
-  letter-spacing: -0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  letter-spacing: 0;
 }
 
 .brand__text strong {
-  font-size: 1.08rem;
+  font-size: 1rem;
 }
 
 .brand__text small {
@@ -134,22 +132,23 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 0.35rem;
+  gap: 0.2rem;
 }
 
 .site-nav a {
-  padding: 0.55rem 0.9rem;
+  padding: 0.45rem 0.72rem;
   border: 1px solid transparent;
   border-radius: 999px;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .site-nav a:hover,
 .site-nav a:focus,
 .site-nav a[aria-current="page"] {
-  border-color: rgba(158, 94, 46, 0.18);
-  background: rgba(158, 94, 46, 0.08);
+  border-color: var(--line);
+  background: var(--surface-strong);
   color: var(--text);
   text-decoration: none;
 }
@@ -157,7 +156,7 @@ h3 {
 .hero,
 .page-hero,
 .section {
-  padding: 4.5rem 0;
+  padding: 3.2rem 0;
 }
 
 .hero__grid {
@@ -170,28 +169,32 @@ h3 {
 .eyebrow {
   margin: 0 0 0.7rem;
   color: var(--accent);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
 h1 {
   margin: 0;
-  font-size: clamp(2.7rem, 6vw, 5rem);
-  line-height: 1.02;
+  max-width: 56rem;
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  font-weight: 700;
+  line-height: 1.08;
 }
 
 h2 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.1rem);
-  line-height: 1.08;
+  font-size: clamp(1.35rem, 1.8vw, 1.75rem);
+  font-weight: 650;
+  line-height: 1.18;
 }
 
 h3 {
   margin: 0 0 0.6rem;
-  font-size: 1.4rem;
-  line-height: 1.15;
+  font-size: 1.08rem;
+  font-weight: 650;
+  line-height: 1.3;
 }
 
 .hero__lead,
@@ -209,9 +212,10 @@ h3 {
 
 .hero__lead,
 .page-hero__lead {
-  max-width: 44rem;
-  margin: 1.3rem 0 0;
-  font-size: 1.12rem;
+  max-width: 50rem;
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .hero__actions,
@@ -226,8 +230,8 @@ h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 3rem;
-  padding: 0.7rem 1.15rem;
+  min-height: 2.6rem;
+  padding: 0.6rem 1rem;
   border-radius: 999px;
   border: 1px solid var(--line);
   font-weight: 700;
@@ -240,13 +244,13 @@ h3 {
 
 .button--primary {
   border-color: transparent;
-  background: linear-gradient(135deg, #24434d 0%, #325866 60%, #9e5e2e 100%);
+  background: var(--deep);
   color: #fff;
-  box-shadow: 0 18px 40px -24px rgba(32, 58, 67, 0.7);
+  box-shadow: 0 16px 36px -28px rgba(17, 24, 39, 0.55);
 }
 
 .button--ghost {
-  background: rgba(255, 255, 255, 0.7);
+  background: var(--surface);
   color: var(--text);
 }
 
@@ -254,7 +258,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.9rem;
-  margin: 2rem 0 0;
+  margin: 1.5rem 0 0;
   padding: 0;
   list-style: none;
 }
@@ -271,18 +275,18 @@ h3 {
 .cta-panel {
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  background: rgba(255, 253, 248, 0.88);
+  background: var(--surface);
   box-shadow: var(--shadow);
 }
 
 .hero__stats li {
-  padding: 1rem 1.1rem;
+  padding: 0.9rem 1rem;
 }
 
 .hero__stats strong {
   display: block;
   margin-bottom: 0.2rem;
-  font-size: 1.65rem;
+  font-size: 1.35rem;
 }
 
 .hero__stats span {
@@ -301,14 +305,12 @@ h3 {
 
 .panel-card--photo {
   min-height: 22rem;
-  background:
-    linear-gradient(150deg, rgba(32, 58, 67, 0.9), rgba(50, 88, 102, 0.88)),
-    linear-gradient(135deg, rgba(158, 94, 46, 0.25), transparent 55%);
-  color: #f8efe4;
+  background: var(--deep);
+  color: #f7fafc;
 }
 
 .panel-card--note {
-  background: rgba(240, 233, 219, 0.72);
+  background: var(--surface-strong);
 }
 
 .panel-card__label {
@@ -317,7 +319,7 @@ h3 {
   opacity: 0.8;
   font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -331,7 +333,7 @@ h3 {
 }
 
 .section--tinted {
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--surface-tint);
 }
 
 .section-heading {
@@ -377,7 +379,7 @@ h3 {
 .info-card,
 .publication-item,
 .publication-row {
-  padding: 1.35rem;
+  padding: 1.05rem;
 }
 
 .feature-card__tag,
@@ -387,9 +389,9 @@ h3 {
   display: inline-block;
   margin-bottom: 0.75rem;
   color: var(--accent);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -437,10 +439,10 @@ h3 {
   width: 3.6rem;
   height: 3.6rem;
   border-radius: 50%;
-  background: linear-gradient(135deg, #24434d 0%, #426f7a 55%, #9e5e2e 100%);
+  background: var(--deep);
   color: #fff;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0;
 }
 
 .avatar-circle--large {
@@ -453,7 +455,7 @@ h3 {
 .person-card h3,
 .publication-item h3,
 .project-card h3 {
-  margin-top: 0.9rem;
+  margin-top: 0.7rem;
 }
 
 .text-link {
@@ -479,14 +481,21 @@ h3 {
 .placeholder-link {
   display: inline-flex;
   align-items: center;
-  min-height: 2rem;
-  padding: 0.28rem 0.75rem;
-  border: 1px dashed rgba(158, 94, 46, 0.34);
+  min-height: 1.85rem;
+  padding: 0.22rem 0.65rem;
+  border: 1px solid rgba(138, 90, 43, 0.28);
   border-radius: 999px;
   color: var(--accent);
-  font-size: 0.92rem;
+  font-size: 0.85rem;
   font-weight: 700;
-  background: rgba(158, 94, 46, 0.05);
+  background: #fff;
+}
+
+.placeholder-link--disabled {
+  color: var(--muted);
+  border-color: rgba(100, 112, 125, 0.24);
+  background: rgba(100, 112, 125, 0.06);
+  cursor: default;
 }
 
 .cta-panel {
@@ -499,7 +508,7 @@ h3 {
 
 .site-footer {
   padding: 2rem 0 2.8rem;
-  border-top: 1px solid rgba(45, 62, 74, 0.1);
+  border-top: 1px solid var(--line);
 }
 
 .footer-grid {
@@ -515,7 +524,7 @@ h3 {
 }
 
 .page-hero {
-  padding-bottom: 2rem;
+  padding-bottom: 1.4rem;
 }
 
 .people-grid {
@@ -554,18 +563,16 @@ h3 {
   height: 10rem;
   margin-bottom: 1rem;
   border-radius: var(--radius-md);
-  background:
-    linear-gradient(135deg, rgba(158, 94, 46, 0.18), transparent),
-    linear-gradient(135deg, #203a43 0%, #3f6975 100%);
+  background: var(--surface-strong);
 }
 
 .year-block h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.85rem;
 }
 
 .publication-row {
   display: grid;
-  grid-template-columns: 10rem 1fr;
+  grid-template-columns: 7rem 1fr;
   gap: 1rem;
 }
 
@@ -607,7 +614,7 @@ h3 {
   .hero,
   .page-hero,
   .section {
-    padding: 3.2rem 0;
+    padding: 2.6rem 0;
   }
 
   .publication-row__year {
@@ -621,11 +628,15 @@ h3 {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.9rem;
+    font-size: 1.42rem;
+  }
+
+  h3 {
+    font-size: 1.02rem;
   }
 
   .brand__text small {
