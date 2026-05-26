@@ -1,0 +1,28 @@
+roboalign-r1-distilled-multimodal-reward-alignment-for-robot-video-world.png	RoboAlign-R1: Distilled Multimodal Reward Alignment for Robot Video World Models
+nuwadynamics-a-causality-aware-generative-framework-for-spatio-temporal.png	NuwaDynamics+: A Causality-Aware Generative Framework for Spatio-Temporal Representation Learning
+pnp-corrector-a-universal-correction-framework-for-coupled-spatiotempora.png	PnP-Corrector: A Universal Correction Framework for Coupled Spatiotemporal Forecasting
+frequency-aligned-knowledge-distillation-for-lightweight-spatiotemporal-forecasting.png	Frequency-Aligned Knowledge Distillation for Lightweight Spatiotemporal Forecasting
+dynst-dynamic-sparse-training-for-resource-constrained-spatio-temporal-f.png	DynST: Dynamic Sparse Training for Resource-Constrained Spatio-Temporal Forecasting
+learning-from-history-a-retrieval-augmented-framework-for-spatiotemporal.png	Learning from History: A Retrieval-Augmented Framework for Spatiotemporal Prediction
+nuwadynamics-discovering-and-updating-in-causal-spatio-temporal-modeling.png	NuwaDynamics: Discovering and Updating in Causal Spatio-Temporal Modeling
+earthfarseer-versatile-spatio-temporal-dynamical-systems-modeling-in-one.png	Earthfarseer: Versatile Spatio-Temporal Dynamical Systems Modeling in One Model
+modeling-spatio-temporal-dynamical-systems-with-neural-discrete-learning.png	Modeling Spatio-Temporal Dynamical Systems with Neural Discrete Learning and Levels-of-Experts
+pastnet-introducing-physical-inductive-biases-for-spatio-temporal-video.png	PastNet: Introducing Physical Inductive Biases for Spatio-Temporal Video Prediction
+omniflow-a-physics-grounded-multimodal-agent-for-generalized-scientific.png	OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning
+advanced-global-wildfire-activity-modeling-with-hierarchical-graph-ode.png	Advanced Global Wildfire Activity Modeling with Hierarchical Graph ODE
+tyche-one-step-flow-for-efficient-probabilistic-weather-forecasting.png	Tyche: One Step Flow for Efficient Probabilistic Weather Forecasting
+an-exterior-embedding-neural-operator-framework-for-preserving-conservat.png	An Exterior-Embedding Neural Operator Framework for Preserving Conservation Laws
+differential-integral-neural-operator-for-long-term-turbulence-forecasti.png	Differential-Integral Neural Operator for Long-Term Turbulence Forecasting
+neuralom-neural-ocean-model-for-subseasonal-to-seasonal-simulation.png	NeuralOM: Neural Ocean Model for Subseasonal-to-Seasonal Simulation
+spatiotemporal-forecasting-as-planning-a-model-based-reinforcement-learn.png	Spatiotemporal Forecasting as Planning: A Model-Based Reinforcement Learning Approach with Generative World Models
+advanced-long-term-earth-system-forecasting.png	Advanced Long-term Earth System Forecasting
+breaking-the-discretization-barrier-of-continuous-physics-simulation-lea.png	Breaking the Discretization Barrier of Continuous Physics Simulation Learning
+open-ck-a-large-multi-physics-fields-coupling-benchmark-in-combustion-ki.png	Open-CK: A Large Multi-Physics Fields Coupling Benchmark in Combustion Kinetics
+oneforecast-a-universal-framework-for-global-and-regional-weather-foreca.png	OneForecast: A Universal Framework for Global and Regional Weather Forecasting
+neuralogcm-differentiable-ocean-modeling-with-learnable-physics.png	NeuralOGCM: Differentiable Ocean Modeling with Learnable Physics
+turb-l1-achieving-long-term-turbulence-tracing-by-tackling-spectral-bias.png	Turb-L1: Achieving Long-term Turbulence Tracing By Tackling Spectral Bias
+s3-fire-enhanced-generalization-in-spatiotemporal-fire-prediction-with-s.png	S3-Fire: Enhanced Generalization in Spatiotemporal Fire Prediction with Selective State and Spectral Spaces
+advancing-ocean-state-estimation-with-efficient-and-scalable-ai.png	Advancing Ocean State Estimation with Efficient and Scalable AI
+pure-prompt-evolution-with-graph-ode-for-out-of-distribution-fluid-dynam.png	PURE: Prompt Evolution with Graph ODE for Out-of-distribution Fluid Dynamics Modeling
+prometheus-out-of-distribution-fluid-dynamics-modeling-with-disentangled.png	Prometheus: Out-of-distribution Fluid Dynamics Modeling with Disentangled Graph ODE
+neural-manifold-operators-for-learning-the-evolution-of-physical-dynamic.png	Neural Manifold Operators for Learning the Evolution of Physical Dynamics
